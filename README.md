@@ -26,6 +26,10 @@ This app is designed for international students who want to apply to universitie
 3. Users can check the task.
 4. Users can get a reminder notification when the deadline is coming.
 
+## UI of the project, made with Figma
+
+![UI](https://github.com/YinanLi1987/gofin_2023summer/blob/main/photo/UI.png?raw=true)
+
 ## Technologies used in the project
 
 - User Interface:
