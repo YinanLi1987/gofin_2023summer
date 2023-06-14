@@ -4,6 +4,7 @@ import android.annotation.SuppressLint
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Scaffold
@@ -12,10 +13,12 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.navigation.NavController
 import androidx.navigation.compose.rememberNavController
 import com.example.gofin2.ui.navigation.BottomNav
 import com.example.gofin2.ui.navigation.NavGraph
 import com.example.gofin2.ui.navigation.TopBar
+import com.example.gofin2.ui.navigation.TopMenu
 import com.example.gofin2.ui.theme.GoFin2Theme
 
 class MainActivity : ComponentActivity() {
@@ -43,7 +46,7 @@ fun MainScreen() {
     Scaffold(
 
         topBar = { TopBar(navController) },
-        content = { NavGraph(navController=navController ) },
+        content = {NavGraph(navController=navController ) },
         bottomBar = { BottomNav(navController) }
     )
 }
