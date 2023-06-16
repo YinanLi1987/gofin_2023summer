@@ -21,6 +21,9 @@ fun NavGraph(modifier: Modifier = Modifier, navController: NavHostController) {
         addStudy(navController, this)
         addTodo(navController, this)
         addAccount(navController, this)
+        addSign(navController, this)
+        addLog(navController, this)
+
     }
 }
 
@@ -75,5 +78,21 @@ private fun addAccount(
 ) {
     navGraphBuilder.composable(route = NavRoute.Account.path) {
         Account(navController = navController )
+    }
+}
+private fun addLog(
+    navController: NavController,
+    navGraphBuilder: NavGraphBuilder
+) {
+    navGraphBuilder.composable(route = NavRoute.Log.path) {
+        Log(navController = navController )
+    }
+}
+private fun addSign(
+    navController: NavController,
+    navGraphBuilder: NavGraphBuilder
+) {
+    navGraphBuilder.composable(route = NavRoute.Sign.path) {
+        Sign(navController = navController )
     }
 }

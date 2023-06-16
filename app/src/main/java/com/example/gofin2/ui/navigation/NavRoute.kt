@@ -8,7 +8,8 @@ sealed class NavRoute(val path: String) {
     object Study: NavRoute("study")
     object Todo: NavRoute("todo")
     object Account: NavRoute("account")
-
+    object Log: NavRoute("log")
+    object Sign: NavRoute("sign")
 
 
 

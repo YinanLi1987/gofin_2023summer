@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "300440571842",
+    "project_id": "gofin-b74f8",
+    "storage_bucket": "gofin-b74f8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300440571842:android:68c31a631c38e51488505b",
+        "android_client_info": {
+          "package_name": "com.example.gofin2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300440571842-inhg0ub7gu5eb48km6acnb1icdfi8j39.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDG6RmKm8DFmnGESrlNn1C2MhwcP_crDHc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300440571842-inhg0ub7gu5eb48km6acnb1icdfi8j39.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
